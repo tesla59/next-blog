@@ -1,3 +1,9 @@
+import Loader from "../components/Loader"
+
 export default function Home() {
-  return 
+  return (
+    <div>
+      <Loader show={true}></Loader>
+    </div>
+  ) 
 }
