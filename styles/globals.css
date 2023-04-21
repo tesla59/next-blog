@@ -25,3 +25,26 @@
     transform: rotate(360deg);
   }
 }
+
+#logo {
+  border-radius: 30px;
+}
+
+.navbar {
+  background-color: #b5bdc4;
+}
+
+.navlist {
+  list-style-type: none;
+  display: flex;
+  /* padding: 10px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loginButton {
+  margin-right: 70px;
+  height: 40px;
+  width: 90px;
+  background-color:slategray;
+}
